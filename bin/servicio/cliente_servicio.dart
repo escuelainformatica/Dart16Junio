@@ -2,6 +2,8 @@ import '../modelo/cliente.dart';
 
 class ClienteServicio {
   // _ <-- privado
+  final int IVA=20;
+  // const int UF=35000;
 
   static mostrar(Cliente cli
       ,{required int largo
